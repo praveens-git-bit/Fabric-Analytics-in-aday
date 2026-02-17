@@ -1,4 +1,4 @@
-# ![](images2/media/image4.png) 
+# ![](../media/lab-2/image4.png) 
 
 # Sumário
 
@@ -54,7 +54,7 @@ Ao final deste laboratório, você terá aprendido a:
 1.  Selecione **PowerBI Portal** na Área de Trabalho da Máquina Virtual.
     A sua entrada pode ser solicitada.
 
-    ![](images2/media/image6.png)
+    ![](../media/lab-2/image6.png)
 
     >**Observação:** se você estiver usando o ambiente de laboratório, ele poderá conectar você automaticamente.\*
 
@@ -65,7 +65,7 @@ Ao final deste laboratório, você terá aprendido a:
 
     - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
-        ![](images2/media/image7.png)
+        ![](../media/lab-2/image7.png)
 
 3.  Na guia **Entrar no Microsoft Azure**, você verá a tela de login.
     Nessa tela, insira o seguinte **Email/Nome de usuário** e clique em
@@ -73,14 +73,14 @@ Ao final deste laboratório, você terá aprendido a:
 
     - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
-        ![](images2/media/image8.png)
+        ![](../media/lab-2/image8.png)
 
 4.  Agora, insira a seguinte **Senha de Acesso Temporária** e clique em
     **Entrar**.
 
     - **Senha de Acesso Temporária:** <inject key="AzureAdUserPassword"></inject>
 
-        ![](images2/media/image9.png)
+        ![](../media/lab-2/image9.png)
 
 5.  Você será direcionado à conhecida **Página Inicial de Serviço do
     Power BI**.
@@ -96,26 +96,26 @@ Ao final deste laboratório, você terá aprendido a:
 
 8.  Selecione **Avaliação gratuita**.
 
-    ![](images2/media/image10.png)
+    ![](../media/lab-2/image10.png)
 
 9.  A caixa de A caixa de diálogo de atualização para uma avaliação
     gratuita do Microsoft Fabric é aberta. Selecione **Ativar**.
 
     >**Observação:** *não altere a região padrão. Mantenha isso como está.*
 
-    ![](images2/media/image11.png)
+    ![](../media/lab-2/image11.png)
 
 10. A caixa de diálogo Atualizado com êxito para Microsoft Fabric é
     aberta. Selecione **Fabric Home Page**.
 
-    ![](images2/media/image12.png)
+    ![](../media/lab-2/image12.png)
 
 11. Você será direcionado à **Página Inicial do Microsoft Fabric**. Um
     diálogo \"Bem-vindo(a) à exibição do Fabric\" pode ser aberto. Se
     desejar, você poderá selecionar a opção **Iniciar tour** ou
     **Cancelar**.
 
-    ![](images2/media/image13.png)
+    ![](../media/lab-2/image13.png)
 
 # Workspace do Fabric
 
@@ -128,7 +128,7 @@ Ao final deste laboratório, você terá aprendido a:
 2.  Clique em **+ Novo workspace** (2) encontrado na parte inferior do
     menu pop-out.
 
-    ![](images2/media/image14.png)
+    ![](../media/lab-2/image14.png)
 
 3.  A caixa de diálogo **Criar um workspace** é aberta no lado direito
     do navegador.
@@ -145,12 +145,12 @@ Ao final deste laboratório, você terá aprendido a:
 
 6.  Clique em **Avançado** para expandir a seção.
 
-    ![](images2/media/image15.png)
+    ![](../media/lab-2/image15.png)
 
 7.  Em **Modo de licença**, verifique se **Avaliação** está selecionada.
     (Essa opção deve estar selecionada por padrão.)
 
-    ![](images2/media/image16.png)
+    ![](../media/lab-2/image16.png)
 
 8. Selecione **Aplicar** para criar um novo workspace.
 
@@ -167,7 +167,7 @@ Ao final deste laboratório, você terá aprendido a:
     você crie um novo Lakehouse para armazenar, consultar\
     e gerenciar seu big data.
 
-    ![](images2/media/image17.png)
+    ![](../media/lab-2/image17.png)
 
 3.  Uma caixa de diálogo Novo lakehouse será exibida. Insira
     **lh_FAIAD** na caixa de texto Nome.
@@ -182,7 +182,7 @@ Ao final deste laboratório, você terá aprendido a:
     > recurso estiver em disponibilidade geral, vamos trazê-lo para este
     > laboratório.*
 
-    ![](images2/media/image18.png)
+    ![](../media/lab-2/image18.png)
 
 4. Selecione **Criar**
 
@@ -190,7 +190,7 @@ Ao final deste laboratório, você terá aprendido a:
 
     No Explorador do Lakehouse, você observará uma seção Tabelas e Arquivos. Um Lakehouse poderia expor arquivos do Azure Data Lake Storage Gen2 na seção de arquivos, ou um fluxo de dados poderia carregar dados para as tabelas do Lakehouse. Existem várias opções disponíveis. Mostraremos algumas das opções nos laboratórios a seguir.
 
-    ![](images2/media/image19.png)
+    ![](../media/lab-2/image19.png)
 
 # Visão geral das experiências do Fabric
 
@@ -202,11 +202,11 @@ Ao final deste laboratório, você terá aprendido a:
     o Industry Solutions, o Real-Time Intelligence, o Data Engineering,
     o Data Science e o Data Warehouse. Vamos explorar.
 
-    ![](images2/media/image20.png)
+    ![](../media/lab-2/image20.png)
 
 2.  Selecione **Data Factory**.
 
-    ![](images2/media/image21.png)
+    ![](../media/lab-2/image21.png)
 
 3.  Você será direcionado para a Página Inicial do Data Factory. A
     seguir, está uma explicação detalhada de suas seções, desenvolvidas
@@ -303,21 +303,21 @@ g)  **Crie suas primeiras funções de dados do usuário:** essa seção
     ajuda você a criar funções de dados do usuário, que são úteis para
     gerenciar e transformar dados do usuário.
 
-![](images2/media/image22.png)
+![](../media/lab-2/image22.png)
 
 4.  Clique em **Retornar às cargas de trabalho** no canto superior
     esquerdo da tela. Essa ação levará você para a página principal de
     cargas de trabalho, na qual você poderá explorar outras ferramentas
     ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 ### Tarefa 5: Experiência do Industry Solutions
 
 1.  Na **página de cargas de trabalho**, clique em **Industry
     Solutions** para prosseguir.
 
-    ![](images2/media/image24.png)
+    ![](../media/lab-2/image24.png)
 
 2.  Você será direcionado para a Página Inicial do Industry Solutions.
     Veja a seguir uma visão geral detalhada de suas seções,
@@ -374,20 +374,20 @@ e)  **Saiba mais sobre soluções de varejo:** clique no botão \"Saiba
 f)  **Introdução às soluções de Varejo**: comece a implantar as soluções
     de varejo e a implementá-las em seus projetos.
 
-![](images2/media/image25.png)
+![](../media/lab-2/image25.png)
 
 3.  Clique em Retornar às cargas de trabalho no canto superior esquerdo
     da tela. Essa ação levará você para a página principal de cargas de
     trabalho, na qual você poderá explorar outras ferramentas ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 ### Tarefa 6: Experiência do Real-Time Intelligence
 
 1.  Na página de cargas **de trabalho**, clique em **Real-Time
     Intelligence** para prosseguir.
 
-    ![](images2/media/image26.png)
+    ![](../media/lab-2/image26.png)
 
 2.  Você será direcionado para a Página Inicial do Real-Time
     Intelligence. A seguir, está uma visão geral detalhada de suas
@@ -476,20 +476,20 @@ h\. **Introdução ao ativador:** clique no botão \"Abrir\" para começar a
 usar os conceitos do ativador\
 e a ferramenta de forma eficaz.
 
-![](images2/media/image27.png)
+![](../media/lab-2/image27.png)
 
 3.  Clique em Retornar às cargas de trabalho no canto superior esquerdo
     da tela. Essa ação levará você para a página principal de cargas de
     trabalho, na qual você poderá explorar outras ferramentas ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 ### Tarefa 7: Experiência do Data Engineering
 
 1.  Na página de cargas **de trabalho**, clique em Data Engineering para
     prosseguir.
 
-    ![](images2/media/image28.png)
+    ![](../media/lab-2/image28.png)
 
 2.  Você será direcionado para a Página Inicial do **Data Engineering**.
     A seguir, está uma visão geral detalhada de suas seções,
@@ -562,21 +562,21 @@ botão \"Abrir\" para saber como criar funções de dados do usuário.
 j\. **Criar sua primeira API for GraphQL:** clique no botão \"Abrir\"
 para saber como criar uma API for GraphQL.
 
-![](images2/media/image29.png)
+![](../media/lab-2/image29.png)
 
 3.  Clique em **Retornar às cargas de trabalho** no canto superior
     esquerdo da tela. Essa ação levará você para a página principal de
     cargas de trabalho, na qual você poderá explorar outras ferramentas
     ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 ### Tarefa 8: Experiência do Data Science
 
 1.  Na página de cargas **de trabalho**, clique em **Data Science** para
     prosseguir.
 
-    ![](images2/media/image30.png)
+    ![](../media/lab-2/image30.png)
 
 2.  Você será direcionado para a Página Inicial do **Data Science**. A
     seguir, está uma visão geral detalhada de suas seções, desenvolvidas
@@ -628,21 +628,21 @@ saber como desenvolver e executar notebooks para análise de dados.
 e\. **Introdução aos Notebooks:** clique no botão \"Abrir\" para saber
 como começar a usar os notebooks.
 
-![](images2/media/image31.png)
+![](../media/lab-2/image31.png)
 
 3.  Clique em **Retornar às cargas de trabalho** no canto superior
     esquerdo da tela. Essa ação levará você para a página principal de
     cargas de trabalho, na qual você poderá explorar outras ferramentas
     ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 ### Tarefa 9: Experiência do Data Warehouse
 
 1.  Na página de cargas **de trabalho**, clique em **Data Warehouse**
     para prosseguir.
 
-    ![](images2/media/image32.png)
+    ![](../media/lab-2/image32.png)
 
 2.  Você será direcionado para a Página Inicial do Data Warehouse. A
     seguir, está uma visão geral detalhada de suas seções, desenvolvidas
@@ -710,14 +710,14 @@ dados de exemplo já carregados.
 b\. **Introdução ao warehouse:** clique no botão \"Abrir\" para saber
 como usar um warehouse para analisar dados.
 
-![](images2/media/image33.png)
+![](../media/lab-2/image33.png)
 
 ### Tarefa 10: Experiência de Bancos de Dados
 
 1.  Na página de cargas **de trabalho**, clique em **Databases** para
     prosseguir.
 
-    ![](images2/media/image34.png)
+    ![](../media/lab-2/image34.png)
 
 2.  Você será direcionado para a Página Inicial de Bancos de Dados. A
     seguir, está uma visão geral detalhada de suas seções, desenvolvidas
@@ -760,13 +760,13 @@ b.  **Database concepts:** explica termos e conceitos comuns em torno do
 c.  **Database templates:** examine uma biblioteca de modelos
     pré-criados de designs de banco de dados comuns.
 
-![](images2/media/image35.png)
+![](../media/lab-2/image35.png)
 
 3.  Clique em Retornar às cargas de trabalho no canto superior esquerdo
     da tela. Essa ação levará você para a página principal de cargas de
     trabalho, na qual você poderá explorar outras ferramentas ou seções.
 
-    ![](images2/media/image23.png)
+    ![](../media/lab-2/image23.png)
 
 Neste laboratório, exploramos a interface do Fabric e criamos um
 workspace do Fabric e um Lakehouse. No próximo laboratório, aprenderemos
@@ -780,7 +780,7 @@ funções disponíveis\
 no Microsoft Fabric. No menu do serviço, a seção Ajuda (?) tem links
 para ótimos recursos.
 
-![](images2/media/image36.png)
+![](../media/lab-2/image36.png)
 
 Veja aqui mais alguns recursos que ajudarão você com as próximas etapas
 do Microsoft Fabric.

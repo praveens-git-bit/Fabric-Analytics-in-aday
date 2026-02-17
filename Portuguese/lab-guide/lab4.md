@@ -1,4 +1,4 @@
-# ![](images4/media/image4.png)
+# ![](../media/lab-4/image4.png)
 
 # Sumário
 
@@ -70,7 +70,7 @@ Ao final deste laboratório, você terá aprendido:
 
 3.  Na seção **Obter Dados (3),** selecione **Fluxo de Dados Gen2 (4)**.
 
-    ![](images4/media/image6.png)
+    ![](../media/lab-4/image6.png)
 
     Deixe o nome padrão e garanta que \"Habilitar a integração do Git\" esteja marcado. Em seguida, selecione **Criar**. Você navegará até a **página Fluxo de Dados**. A interface do Fluxo de dados Gen2 é igual a do Power Query no Power BI Desktop. Podemos copiar consultas do Power BI Desktop para o Fluxo de dados Gen2. Vamos testar.
 
@@ -82,27 +82,27 @@ Ao final deste laboratório, você terá aprendido:
 
 7. **Clique com o botão direito do mouse** e selecione **Copiar**.
 
-    ![P56#yIS1](images4/media/image7.png)
+    ![P56#yIS1](../media/lab-4/image7.png)
 
 8. Volte para a tela **Fluxo de Dados** no navegador.
 
 9. No **painel Fluxo de dados**, pressione **Ctrl+V** (no momento, não é possível clicar com o botão direito do mouse em Colar). Se você estiver usando o dispositivo MAC, use Cmd+V para colar.
 
-    ![](images4/media/image8.png)
+    ![](../media/lab-4/image8.png)
 
     >**Observação:** se você estiver trabalhando no ambiente de laboratório, selecione as reticências no canto superior direito da tela. Use o controle deslizante para **habilitar** **VM Native Clipboard**. Selecione OK na caixa de diálogo. Depois que terminar de colar as consultas, você poderá desabilitar essa opção.
 
-    ![P60#yIS1](images4/media/image9.png)
+    ![P60#yIS1](../media/lab-4/image9.png)
 
     Observe se a consulta foi colada e se está disponível no painel esquerdo. Como não temos uma conexão criada para o SharePoint, você verá uma mensagem de aviso solicitando que configure a conexão.
 
-    ![](images4/media/image10.png)
+    ![](../media/lab-4/image10.png)
 
 ### Tarefa 2: Criar conexão do SharePoint
 
 1.  Selecione **Configurar conexão**.
 
-    ![](images4/media/image11.png)
+    ![](../media/lab-4/image11.png)
 
 2.  A caixa de diálogo Conectar-se à fonte de dados é aberta. Na lista suspensa **Conexão**, verifique se **Criar nova conexão** está selecionada.
 
@@ -112,7 +112,7 @@ Ao final deste laboratório, você terá aprendido:
 
     >**Observação:** você vai se conectar usando suas credenciais. Elas serão diferentes da captura de tela abaixo.
 
-    ![P69#yIS1](images4/media/image12.png)
+    ![P69#yIS1](../media/lab-4/image12.png)
 
 ### Tarefa 3: Configurar destino de dados para a consulta People
 
@@ -122,11 +122,11 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 2.  Na faixa de opções, selecione **Página Inicial -\> Consulta (2) -\> Adicionar destino de dados (3) -\>** **Lakehouse (4)**.
 
-    ![](images4/media/image13.png)
+    ![](../media/lab-4/image13.png)
 
 3. A caixa de diálogo Conectar ao destino de dados é aberta. Precisamos criar uma nova Conexão com o Lakehouse. Com a opção **Criar nova conexão** selecionada na lista suspensa Conexão e **Tipo de autenticação** definido como **Conta organizacional**, selecione **Próximo**.
 
-    ![](images4/media/image14.png)
+    ![](../media/lab-4/image14.png)
 
 4. A caixa de diálogo Escolher alvo de destino é aberta. Verifique se o botão de opção **Nova tabela** está selecionado, pois estamos criando uma nova tabela.
 
@@ -138,7 +138,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 8. Selecione **Próximo**.
 
-    ![](images4/media/image15.png)
+    ![](../media/lab-4/image15.png)
 
 9. A caixa de diálogo Escolher configurações de destino é aberta. **Habilite** \"**Usar configurações automáticas**\".
 
@@ -146,7 +146,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 10. Selecione **Salvar configurações**.
 
-    ![](images4/media/image16.png)
+    ![](../media/lab-4/image16.png)
 
 ### Tarefa 4: Publicar e renomear o Fluxo de Dados do SharePoint
 
@@ -154,13 +154,13 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 2. No canto superior esquerdo, selecione **Salvar e Executar (1)**. Depois de ver a notificação de que uma atualização foi iniciada, você poderá fechar o fluxo de dados **(3)**
 
-    ![](images4/media/image17.png)
+    ![](../media/lab-4/image17.png)
 
     > **Observação:** você será direcionado de volta para o **workspace FAIAD\_\<nome de usuário\>**. Pode levar alguns instantes para que a execução do Fluxo de Dados seja encerrada.
 
 3. **Dataflow 1** é o fluxo de dados no qual estávamos trabalhando. Vamos renomeá-lo antes de continuarmos. Clique nas **reticências (\...)** ao lado de Dataflow 1. Selecione **Configurações** (enquanto o Dataflow está em execução, não é possível acessar as configurações).
 
-    ![](images4/media/image18.png)
+    ![](../media/lab-4/image18.png)
 
 4. A janela Configurações do fluxo de dados é aberta. Altere o **nome** para **df_People_SharePoint (1)**.
 
@@ -168,7 +168,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 6. Quando terminar, feche a janela de configurações **(3)**.
 
-    ![](images4/media/image19.png)
+    ![](../media/lab-4/image19.png)
 
     Você será direcionado de volta para o **workspace FAIAD\_\<nome de usuário\>**.
 
@@ -178,7 +178,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 9. Veja que a tabela **People** está disponível no Lakehouse.
 
-    ![](images4/media/image20.png)
+    ![](../media/lab-4/image20.png)
 
     > **Observação:** se você não vir as tabelas recém-criadas, selecione as reticências ao lado de Tabelas e selecione Atualizar para atualizar as tabelas.
 
@@ -190,7 +190,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 3. Em Itens recomendados, selecione **Fluxo de dados Gen2 (3)**.
 
-    ![](images4/media/image21.png)
+    ![](../media/lab-4/image21.png)
 
     Deixe o nome padrão e garanta que \"Habilitar a integração do Git\" esteja marcado. Em seguida, selecione **criar**. Se você receber uma mensagem informando \"Já existe um fluxo de dados com este nome\", em seguida, altere o nome para **Fluxo de Dados 2**. Você navegará até a **página Fluxo de Dados**. Agora que estamos familiarizados com o Fluxo de Dados, vamos continuar e copiar as consultas do Power BI Desktop no Fluxo de Dados.
 
@@ -213,7 +213,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
 
 7. **Clique com o botão direito do mouse** e selecione **Copiar**.
 
-    ![](images4/media/image22.png)
+    ![](../media/lab-4/image22.png)
 
 8. Volte para o **navegador**.
 
@@ -225,7 +225,7 @@ A conexão é estabelecida, e você pode exibir os dados no painel de visualiza�
     > Native Clipboard**. Selecione OK na caixa de diálogo. Depois que
     > terminar de colar as consultas, você poderá desabilitar essa opção.
 
-    ![P123#yIS1](images4/media/image23.png)
+    ![P123#yIS1](../media/lab-4/image23.png)
 
 ### Tarefa 6: Criar conexão com o Snowflake
 
@@ -233,7 +233,7 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 1. Selecione **Configurar conexão**.
 
-    ![](images4/media/image24.png)
+    ![](../media/lab-4/image24.png)
 
 2. A caixa de diálogo Conectar-se à fonte de dados é aberta. Na lista suspensa **Conexão**, verifique se **Criar nova conexão** está selecionada.
 
@@ -253,7 +253,7 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 5.  Selecione **Conectar**.
 
-    ![](images4/media/image25.png)
+    ![](../media/lab-4/image25.png)
 
     A conexão é estabelecida e você pode exibir os dados no painel de visualização. Fique à vontade para navegar pelas Etapas aplicadas das consultas. Basicamente, a consulta Suppliers tem os detalhes dos fornecedores e a tabela SupplierCategories, como o nome indica, tem todas as categorias de fornecedores. Essas duas tabelas são unidas para criar a dimensão Supplier, com as colunas necessárias. Da mesma forma, temos a consulta PO Line Items mesclada com PO para criar o fato PO. Agora precisamos ingerir os dados de Supplier e PO no Lakehouse.
 
@@ -263,13 +263,13 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 2. Na faixa de opções, selecione **Página Inicial (2) -\> Adicionar destino de dados (3) -\> Lakehouse (4)**.
 
-    ![](images4/media/image26.png)
+    ![](../media/lab-4/image26.png)
 
 3. A caixa de diálogo Conectar ao destino de dados é aberta. Na **lista suspensa Conexão**, selecione **Lakehouse odl_user\_\<nome de usuário\> (nenhum)**.
 
 4. Selecione **Próximo**.
 
-    ![](images4/media/image27.png)
+    ![](../media/lab-4/image27.png)
 
 5. A caixa de diálogo Escolher alvo de destino é aberta. Verifique se o botão de opção **Nova tabela** está selecionado, pois estamos criando uma nova tabela.
 
@@ -281,15 +281,15 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 9. Selecione **Próximo**.
 
-    ![](images4/media/image28.png)
+    ![](../media/lab-4/image28.png)
 
 10. A caixa de diálogo Escolher configurações de destino é aberta. Usaremos as configurações automáticas, pois assim será feita uma atualização completa dos dados. Além disso, as colunas serão renomeadas conforme necessário. Selecione **Salvar configurações**.
 
-    ![](images4/media/image29.png)
+    ![](../media/lab-4/image29.png)
 
 11. Você será direcionado de volta à **janela Power Query**. No **canto inferior direito, Destino de dados** está definido como **Lakehouse**. Da mesma forma, **configure o Destino de dados para a consulta PO**. Uma vez feito isso, sua consulta **PO** deverá ter **Destino de dados** definido como **Lakehouse** conforme mostrado na captura de tela abaixo.
 
-    ![](images4/media/image30.png)
+    ![](../media/lab-4/image30.png)
 
 ### Tarefa 8: Renomear e publicar o fluxo de dados do Snowflake
 
@@ -299,11 +299,11 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 3. Clique em **Enter** para salvar a alteração do nome.
 
-    ![](images4/media/image31.png)
+    ![](../media/lab-4/image31.png)
 
 4. No canto superior esquerdo, selecione **Salvar e Executar (1)**. Depois de ver a notificação de que uma atualização foi iniciada, você poderá fechar o fluxo de dados **(2)**
 
-    ![](images4/media/image32.png)
+    ![](../media/lab-4/image32.png)
 
     Você será direcionado de volta para o **workspace FAIAD\_\<nome de usuário\>**. Pode levar alguns instantes para que Fluxo de Dados seja publicado.
 
@@ -313,7 +313,7 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 7. Veja que as tabelas **PO** e **Supplier** agora estão disponíveis no Lakehouse.
 
-    ![](images4/media/image33.png)
+    ![](../media/lab-4/image33.png)
 
     >**Observação:** se você não vir as tabelas recém-criadas, selecione as reticências ao lado de Tabelas e selecione Atualizar para atualizar as tabelas.
 
@@ -325,19 +325,19 @@ Observe que as cinco consultas foram coladas e agora você tem o painel Consulta
 
 Você deve estar no Lakehouse **lh_FAIAD**. Verifique se você está na exibição Lakehouse (não no ponto de extremidade da análise SQL).
 
-![](images4/media/image34.png)
+![](../media/lab-4/image34.png)
 
 1. No painel **Explorer**, selecione as **reticências** ao lado de **Tabelas**.
 
 2. Selecione **Novo atalho**.
 
-    ![](images4/media/image35.png)
+    ![](../media/lab-4/image35.png)
 
 3. A caixa de diálogo Novo atalho é aberta. Em **Fontes externas**, selecione **Dataverse**.
 
     > **Observação:** no laboratório anterior, seguimos etapas semelhantes para criar um atalho para Azure Data Lake Storage Gen2.
 
-    ![](images4/media/image36.png)
+    ![](../media/lab-4/image36.png)
 
 4. **Selecione Nova conexão (1).** O diálogo Configurações de conexão é aberto. Insira **org6c18814a.crm.dynamics.com (2)** como **Domínio de ambiente.**
 
@@ -345,11 +345,11 @@ Você deve estar no Lakehouse **lh_FAIAD**. Verifique se você está na exibiç�
 
 6. Selecione **Entrar** se você ainda não estiver conectado.
 
-    ![](images4/media/image37.png)
+    ![](../media/lab-4/image37.png)
 
 7. Na caixa de diálogo Entrar, select a **conta de usuário** que você tem usado para esses laboratórios. A caixa de diálogo Entrar na sua conta é aberta. Escolha sua conta para entrar. **Observação:** sua conta será diferente da captura de tela abaixo.
 
-    ![P184#yIS1](images4/media/image38.png)
+    ![P184#yIS1](../media/lab-4/image38.png)
 
 8. Selecione **Próximo** na caixa de diálogo Configurações de conexão. Você será direcionado para um diálogo para escolher o bucket/diretório diferente do Dataverse. Observe que há muitas opções de buckets disponíveis. Podemos escolher os buckets que precisamos e seguir o processo como o Laboratório 3 (usar consulta visual para transformar dados e criar exibições). Também podemos usar o Fluxo de dados Gen2 como usamos anteriormente neste laboratório para nos conectarmos ao
 SharePoint. Em nosso cenário, a equipe de TI já estabeleceu um link para o Dataverse e aplicou as transformações de dados necessárias, espelhando-as no arquivo do Power BI Desktop. Eles ingeriram esses dados no Lakehouse do workspace Admin e nos deram acesso às tabelas. Como nossa equipe de TI fez todo o trabalho árduo, podemos criar um atalho para esse Lakehouse
@@ -357,7 +357,7 @@ no workspace Admin.
 
 9.  Selecione **Cancelar** na caixa de diálogo Novo atalho para voltar ao Lakehouse.
 
-    ![](images4/media/image39.png)
+    ![](../media/lab-4/image39.png)
 
 ### Task 10: Create a Shortcut to a Lakehouse
 
@@ -365,18 +365,18 @@ no workspace Admin.
 
 2.  Selecione **Novo atalho**.
 
-    ![](images4/media/image35.png)
+    ![](../media/lab-4/image35.png)
 
 3.  A caixa de diálogo Novo atalho é aberta. Selecione a opção
     **Microsoft OneLake** em Fontes internas.
 
-    ![](images4/media/image40.png)
+    ![](../media/lab-4/image40.png)
 
 4.  Selecione **lh_dataverse**.
 
 5.  Selecione **Avançar**.
 
-    ![](images4/media/image41.png)
+    ![](../media/lab-4/image41.png)
 
 6.  No painel esquerdo, expanda **lh_dataverse -\> Tables**. Observe que o administrador de TI forneceu acesso à tabela Customer.
 
@@ -384,18 +384,18 @@ no workspace Admin.
 
 8.  Selecione **Avançar**.
 
-    ![](images4/media/image42.png)
+    ![](../media/lab-4/image42.png)
 
 9.  Na próxima caixa de diálogo, selecione **Criar**. Você será
     direcionado de volta ao lakehouse lh_FAIAD.
 
-    ![](images4/media/image43.png)
+    ![](../media/lab-4/image43.png)
 
 10. No painel **Explorer** à esquerda, observe que a nova tabela **Customer** foi criada.
 
 11. Selecione a tabela **Customer** para exibir os dados no painel de visualização.
 
-    ![](images4/media/image44.png)
+    ![](../media/lab-4/image44.png)
 
     Criamos com sucesso um atalho para outro lakehouse.
 
@@ -405,7 +405,7 @@ no workspace Admin.
 
 O Fabric Analyst in a Day (FAIAD) apresenta algumas das principais funções disponíveis\ no Microsoft Fabric. No menu do serviço, a seção Ajuda (?) tem links para ótimos recursos.
 
-![P217#yIS1](images4/media/image45.png)
+![P217#yIS1](../media/lab-4/image45.png)
 
 Veja aqui mais alguns recursos que ajudarão você com as próximas etapas
 do Microsoft Fabric.

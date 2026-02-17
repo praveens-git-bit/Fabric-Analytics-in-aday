@@ -1,4 +1,4 @@
-﻿# ![](images7/media/image4.png)
+﻿# ![](../media/lab-7/image4.png)
 
 # Sumário
 
@@ -65,17 +65,17 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
 2.  Na parte inferior esquerda da tela, selecione o ícone **Fabric
     experience selector**.
 
-    ![](images7/media/image6.png)
+    ![](../media/lab-7/image6.png)
 
 3.  A caixa de diálogo de experiência do Fabric é aberta. Selecione
     **Power BI**. Você será direcionado a uma **Página Inicial do Power
     BI**.
 
-    ![](images7/media/image7.png)
+    ![](../media/lab-7/image7.png)
 
 4.  No menu superior, selecione **Novo relatório**.
 
-    ![](images7/media/image8.png)
+    ![](../media/lab-7/image8.png)
 
 5.  Você será direcionado para **Criar seu primeiro relatório**. Haverá
     opções para criar um relatório usando o Excel, csv, inserir dados
@@ -84,7 +84,7 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
     usá-lo. Selecione a opção **Escolher um modelo semântico
     publicado**.
 
-    ![](images7/media/image9.png)
+    ![](../media/lab-7/image9.png)
 
 6.  Escolha um conjunto de dados para usar no relatório quando a página
     for aberta. Observe que temos várias opções. Selecione **sm_FAIAD**.
@@ -102,14 +102,14 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
     relatório em branco. Vamos tentar criar automaticamente. Selecione
     **Relatório de criação automática**.
 
-    ![](images7/media/image10.png)
+    ![](../media/lab-7/image10.png)
 
 8.  O Power BI começará a criar automaticamente o relatório. Quando o
     relatório estiver pronto, uma caixa de diálogo será exibida na parte
     superior direita da tela. Selecione **Exiba o relatório agora ou ele
     será carregado automaticamente em alguns segundos.**
 
-    ![](images7/media/image11.png)
+    ![](../media/lab-7/image11.png)
 
     **Ponto de verificação:** você terá um relatório semelhante à captura de
     tela abaixo. Existem alguns KPIs e alguns visuais de tendências. Este é
@@ -133,7 +133,7 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
 
 12. Selecione **Salvar**.
 
-    ![](images7/media/image12.png)
+    ![](../media/lab-7/image12.png)
 
     >**Observação:** A aparência do relatório criado automaticamente pode ser
     diferente para você, pois ele é \"criado automaticamente\". Depende
@@ -148,7 +148,7 @@ adiante no laboratório, recriaremos o relatório que temos no Power BI.
     **poderá** ser exibido se você tiver pulado a criação de relacionamentos
     e medidas opcionais (Laboratório 6).
 
-    ![](images7/media/image13.png)
+    ![](../media/lab-7/image13.png)
 
 ### Tarefa 2: Configurar plano de fundo para um Novo relatório
 
@@ -161,12 +161,12 @@ Vamos criar um novo relatório usando uma tela em branco.
 2.  No menu superior, selecione **Novo item -\> Relatório.** Você será
     direcionado para criar sua primeira página de relatório.
 
-    ![](images7/media/image14.png)
+    ![](../media/lab-7/image14.png)
 
 3.  Selecione **Escolher um modelo semântico publicado**, para que
     possamos escolher o modelo que criamos.
 
-    ![](images7/media/image15.png)
+    ![](../media/lab-7/image15.png)
 
 4.  Escolha um modelo semântico para usar quando a caixa de diálogo do
     relatório é aberta. Selecione **sm_FAIAD**.
@@ -176,7 +176,7 @@ Vamos criar um novo relatório usando uma tela em branco.
     do relatório que se parece com a página do relatório do Power BI
     Desktop.
 
-    ![](images7/media/image16.png)
+    ![](../media/lab-7/image16.png)
 
 6.  Se você ainda não tiver aberto, abra o arquivo **FAIAD.pbix** que
     está na pasta **Reports** na **área de trabalho** do seu ambiente de
@@ -188,7 +188,7 @@ Vamos criar um novo relatório usando uma tela em branco.
     questão de tempo e sabendo que você tem experiência com a criação de
     visuais no Power BI Desktop, não criaremos todos os visuais.
 
-    ![](images7/media/image17.png)
+    ![](../media/lab-7/image17.png)
 
 7.  Volte para a **tela do Power BI** no seu navegador.
 
@@ -209,7 +209,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 14. Defina Transparência como **0%**.
 
-    ![](images7/media/image18.png)
+    ![](../media/lab-7/image18.png)
 
 ### Tarefa 3: Adicionar cabeçalho ao relatório
 
@@ -234,7 +234,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 8.  Redimensione a **caixa de texto para caber na margem superior**.
 
-    ![](images7/media/image19.png)
+    ![](../media/lab-7/image19.png)
 
 ### Tarefa 4: Adicionar KPIs ao relatório
 
@@ -247,7 +247,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 4.  Selecione a **medida Sales**.
 
-    ![](images7/media/image20.png)
+    ![](../media/lab-7/image20.png)
 
 5.  Com o **visual Cartão selecionado**, selecione o ícone **Formatar
     visual na** seção **Visualizações**.
@@ -257,7 +257,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 7.  Selecione a lista suspensa **Valor**. Altere o tamanho da fonte para
     **12**.
 
-    ![](images7/media/image21.png)
+    ![](../media/lab-7/image21.png)
 
 8.  Com a seção **Texto Explicativo** ainda selecionada, expanda a seção
     **Etiqueta**.
@@ -271,14 +271,14 @@ Vamos criar um novo relatório usando uma tela em branco.
 
 12. Defina o valor Hex **#004753**.
 
-    ![](images7/media/image22.png)
+    ![](../media/lab-7/image22.png)
 
 13. Expanda a seção **Cartões**.
 
 14. Use o controle deslizante **Barra de destaque** para defini-lo como
     **Desativado**.
 
-    ![](images7/media/image23.png)
+    ![](../media/lab-7/image23.png)
 
 15. Selecione **Geral** no painel Visualizações.
 
@@ -290,7 +290,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 18. Redimensione o **visual** e mova-o para a **caixa esquerda como
     mostrado na captura de tela**.
 
-    ![](images7/media/image24.png)
+    ![](../media/lab-7/image24.png)
 
 19. Vamos adicionar outro cartão. Selecione o **Cartão Sales** que
     acabamos de criar. **Copie** o visual selecionando **Ctrl+C** no
@@ -308,7 +308,7 @@ Vamos criar um novo relatório usando uma tela em branco.
 23. Redimensione o **visual** e **coloque-o na caixa abaixo do visual
     Sales**.
 
-    ![](images7/media/image25.png)
+    ![](../media/lab-7/image25.png)
 
 ### Tarefa 5: Adicionar gráfico de linhas ao relatório
 
@@ -326,7 +326,7 @@ tempo por Reseller Company.
     adicionado ao eixo Y. Vamos retificar isso. Observe que o relatório
     está salvo e você está no modo de exibição.
 
-    ![](images7/media/image26.png)
+    ![](../media/lab-7/image26.png)
 
 ### Tarefa 6: Salvar o relatório
 
@@ -345,7 +345,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 4.  Selecione **Salvar**.
 
-    ![](images7/media/image27.png)
+    ![](../media/lab-7/image27.png)
 
 ### Tarefa 7: Configurar a coluna Year na tabela Date
 
@@ -356,7 +356,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
     que o modelo semântico é aberto em uma nova janela/guia do
     navegador.
 
-    ![](images7/media/image28.png)
+    ![](../media/lab-7/image28.png)
 
 3.  No canto superior direito, alterne para o modo **Edição**.
 
@@ -371,7 +371,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 8.  Na lista suspensa **Resumir por**, selecione **Nenhum**.
 
-    ![](images7/media/image29.png)
+    ![](../media/lab-7/image29.png)
 
 9.  Volte para a **janela/guia do relatório** do navegador.
 
@@ -385,7 +385,7 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 13. Expanda a tabela **Sales** e selecione a **medida Sales**.
 
-    ![](images7/media/image30.png)
+    ![](../media/lab-7/image30.png)
 
 ### Tarefa 8: Configurar a coluna Month Name na tabela Date
 
@@ -404,12 +404,12 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 5.  Selecione **Classificar eixo -\> Classificar em ordem crescente**.
 
-    ![](images7/media/image31.png)
+    ![](../media/lab-7/image31.png)
 
     >**Observação:** Os meses são classificados em ordem alfabética. Vamos
     corrigir isso.
 
-    ![](images7/media/image32.png)
+    ![](../media/lab-7/image32.png)
 
 6.  Volte a acessar a **janela/guia do navegador** onde o modelo
     semântico está aberto.
@@ -423,12 +423,12 @@ Para fazer as alterações no modelo, salve o relatório antes de sair.
 
 10. Na lista suspensa **Classificar por coluna**, selecione **Month**.
 
-    ![](images7/media/image33.png)
+    ![](../media/lab-7/image33.png)
 
 11. Volte para a **janela/guia do relatório** do navegador Observe que
     agora os meses estão classificados corretamente.
 
-    ![](images7/media/image34.png)
+    ![](../media/lab-7/image34.png)
 
 ### Tarefa 9: Formatar gráfico de linhas
 
@@ -442,7 +442,7 @@ Desktop.
 2.  Arraste o campo **Reseller -\> Reseller Company** na seção
     **Legenda**.
 
-    ![](images7/media/image35.png)
+    ![](../media/lab-7/image35.png)
 
 3.  Com o **Visual de gráfico de linhas selecionado**, na seção
     **Visualizações**,\
@@ -457,7 +457,7 @@ Desktop.
 7.  Use o controle deslizante **Tela de fundo** para defini-lo como
     **Desativado**.
 
-    ![](images7/media/image36.png)
+    ![](../media/lab-7/image36.png)
 
 8.  Na seção **Visualizações**, selecione o **ícone Formatar visual -\>
     Visual**.
@@ -482,7 +482,7 @@ Desktop.
 16. Role para a direita no visual e **observe que temos dados até abril
     de 2024**.
 
-    ![](images7/media/image37.png)
+    ![](../media/lab-7/image37.png)
 
 17. Vamos salvar o relatório. No menu, selecione **Arquivo \> Salvar**.
 
@@ -500,7 +500,7 @@ semântico e criar visuais.
 2.  Na faixa de opções, selecione **Página Inicial -\> Catálogo do
     OneLake -\> Modelos semânticos do Power BI.**
 
-    ![](images7/media/image38.png)
+    ![](../media/lab-7/image38.png)
 
 3.  A caixa de diálogo do hub de dados do OneLake é aberta. Selecione
     **sm_FAIAD**, o modelo semântico que criamos.
@@ -508,12 +508,12 @@ semântico e criar visuais.
 4.  Selecione **Conectar**. Observe que, no painel Dados, temos as
     tabelas do modelo semântico.
 
-    ![](images7/media/image39.png)
+    ![](../media/lab-7/image39.png)
 
 5.  No **painel esquerdo**, selecione o **modo de exibição do modelo**.
     Observe que podemos visualizar o relacionamento entre tabelas.
 
-    ![](images7/media/image40.png)
+    ![](../media/lab-7/image40.png)
 
 6.  No **painel esquerdo**, selecione a **exibição Relatório** para
     voltar ao modo de exibição Relatório.
@@ -526,18 +526,18 @@ semântico e criar visuais.
 
 9.  Na faixa de opções, selecione **Página Inicial -\> Copiar**.
 
-    ![](images7/media/image41.png)
+    ![](../media/lab-7/image41.png)
 
 10. Acesse **FAIADTemplate.pbix** e selecione a tela do relatório.
 
 11. Na faixa de opções, selecione **Página Inicial -\> Colar**.
 
-    ![](images7/media/image42.png)
+    ![](../media/lab-7/image42.png)
 
 12. Da mesma forma, copie e cole os **KPIs Sales e Units**. A saber: é
     possível copiar e colar vários visuais juntos.
 
-    ![](images7/media/image43.png)
+    ![](../media/lab-7/image43.png)
 
     Observe que é fácil copiar elementos visuais de um relatório existente e
     colá-los em um relatório que se conecta ao modelo semântico. Os nomes de
@@ -559,14 +559,14 @@ semântico e criar visuais.
 17. Vamos corrigir isso. No painel **Visualização** , no **eixo X**,
     exclua **StartOfMonth**.
 
-    ![](images7/media/image44.png)
+    ![](../media/lab-7/image44.png)
 
 18. No **painel Dados**, expanda a tabela **Date**.
 
 19. Arraste o campo **StartOfMonth** para o **eixo X**. Isso corrige o
     visual. Você pode precisar formatar o visual.
 
-    ![](images7/media/image45.png)
+    ![](../media/lab-7/image45.png)
 
 20. Vamos salvar o relatório. Na faixa de opções, selecione **Arquivo
     -\> Salvar**.
@@ -601,19 +601,19 @@ e atualizando a exibição Sales.
 
 4.  Selecione **lh_FAIAD** para acessar o Lakehouse.
 
-    ![](images7/media/image46.png)
+    ![](../media/lab-7/image46.png)
 
 5.  No **painel Explorer**, à esquerda, selecione as **reticências** ao
     lado de **Tabelas**.
 
 6.  Selecione **Novo atalho**.
 
-    ![](images7/media/image47.png)
+    ![](../media/lab-7/image47.png)
 
 7.  A caixa de diálogo Novo atalho é aberta. Em **Fontes externas**,
     selecione **Azure Data Lake Storage Gen2**.
 
-    ![](images7/media/image48.png)
+    ![](../media/lab-7/image48.png)
 
 8.  Como você criou uma conexão anteriormente nos laboratórios, não
     precisa criar uma conexão agora e verá sua conexão ADLS nas conexões
@@ -627,7 +627,7 @@ e atualizando a exibição Sales.
 
 11. Selecione **Próximo**.
 
-    ![](images7/media/image49.png)
+    ![](../media/lab-7/image49.png)
 
 12. Você será conectado ao ADLS Gen2 com a estrutura de diretórios
     exibida no painel esquerdo. Expanda **Delta-Parquet-Format-FY25.**
@@ -636,7 +636,7 @@ e atualizando a exibição Sales.
 
 14. Selecione **Próximo**.
 
-    ![](images7/media/image50.png)
+    ![](../media/lab-7/image50.png)
 
 15. Você irá para a próxima caixa de diálogo para editar os nomes.
     Selecione o **ícone Editar**, em Ações, para **Sales.Invoices_May**.
@@ -648,7 +648,7 @@ e atualizando a exibição Sales.
 
 18. Selecione **Criar**.
 
-    ![](images7/media/image51.png)
+    ![](../media/lab-7/image51.png)
 
     Observe no **painel Explorer** à esquerda, agora temos a tabela
     InvoicesMay. Agora precisamos atualizar a exibição Sales.
@@ -656,7 +656,7 @@ e atualizando a exibição Sales.
 19. No **canto superior direito** da tela, selecione **Lakehouse -\>
     ponto de extremidade do SQL Analytics**.
 
-    ![](images7/media/image52.png)
+    ![](../media/lab-7/image52.png)
 
 20. No menu superior, selecione **Página Inicial -\> Nova consulta
     SQL**. Um painel de nova consulta SQL é aberto.
@@ -813,7 +813,7 @@ e atualizando a exibição Sales.
     Depois que o código é executado, atualizamos a tabela Sales para incluir
     dados de maio de 2024.
 
-    ![](images7/media/image53.png)
+    ![](../media/lab-7/image53.png)
 
 23. Selecione **rpt_Sales_Report** na barra de menus à esquerda para
     voltar para o relatório**.**
@@ -822,7 +822,7 @@ e atualizando a exibição Sales.
     gráfico de linhas que há dados para maio de 2024. Observe também que
     o valor de Sales aumentou.
 
-    ![](images7/media/image54.png)
+    ![](../media/lab-7/image54.png)
 
     Não precisamos atualizar o modelo de dados e o relatório quando os dados
     mudam. Esta é a vantagem do Direct Lake e do Direct query.
@@ -881,7 +881,7 @@ as etapas abaixo.
 
 2.  No menu superior, selecione **Configurações do Workspace**.
 
-    ![](images7/media/image55.png)
+    ![](../media/lab-7/image55.png)
 
 3.  A caixa de diálogo Configurações de workspace será aberta. Na seção
     **Geral**, desça a tela.
@@ -893,7 +893,7 @@ as etapas abaixo.
 
     Isso excluirá o workspace e todos os itens nele contidos.
 
-    ![](images7/media/image56.png)
+    ![](../media/lab-7/image56.png)
 
 # Referências
 
@@ -901,7 +901,7 @@ O Fabric Analyst in a Day (FAIAD) apresenta algumas das principais
 funções disponíveis no Microsoft Fabric. No menu do serviço, a seção
 Ajuda (?) tem links para ótimos recursos.
 
-![](images7/media/image57.png)
+![](../media/lab-7/image57.png)
 
 Veja aqui mais alguns recursos que ajudarão você com as próximas etapas
 do Microsoft Fabric.
