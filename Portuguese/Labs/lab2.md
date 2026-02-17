@@ -56,9 +56,9 @@ Ao final deste laboratório, você terá aprendido a:
 
     ![](images2/media/image6.png)
 
-    ***Observação:** se você estiver usando o ambiente de laboratório, ele poderá conectar você automaticamente.\*
+    >**Observação:** se você estiver usando o ambiente de laboratório, ele poderá conectar você automaticamente.\*
 
-    ***Observação**: se o Fabric não abrir, navegue até http://app.fabric.microsoft.com/ no navegador.\*
+    >**Observação**: se o Fabric não abrir, navegue até http://app.fabric.microsoft.com/ no navegador.\*
 
 2.  Copie o Nome de usuário e cole-o no campo Email da caixa de texto e
     selecione Enviar.
@@ -101,7 +101,7 @@ Ao final deste laboratório, você terá aprendido a:
 9.  A caixa de A caixa de diálogo de atualização para uma avaliação
     gratuita do Microsoft Fabric é aberta. Selecione **Ativar**.
 
-    ***Observação:** não altere a região padrão. Mantenha isso como está.*
+    >**Observação:** *não altere a região padrão. Mantenha isso como está.*
 
     ![](images2/media/image11.png)
 
@@ -744,7 +744,7 @@ b\. **Cosmos DB:** Cosmos DB no Microsoft Fabric é um banco de dados
 NoSQL otimizado para IA com uma experiência de gerenciamento
 simplificada. Como desenvolvedor, você pode usar o Cosmos DB no Fabric
 para criar aplicativos de IA com menos atrito e sem precisar assumir
-tarefas típicas de gerenciamento de banco de dados.**\**
+tarefas típicas de gerenciamento de banco de dados.
 
 **Introdução:**
 
@@ -760,7 +760,7 @@ b.  **Database concepts:** explica termos e conceitos comuns em torno do
 c.  **Database templates:** examine uma biblioteca de modelos
     pré-criados de designs de banco de dados comuns.
 
-    ![](images2/media/image35.png)
+![](images2/media/image35.png)
 
 3.  Clique em Retornar às cargas de trabalho no canto superior esquerdo
     da tela. Essa ação levará você para a página principal de cargas de
@@ -837,64 +837,20 @@ Leia os blogs de comunicados de experiências do Fabric em mais detalhes:
 - [Blog de integração do Dataverse e Microsoft
   Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Todos os direitos reservados.
->
-> Ao usar esta demonstração/este laboratório, você concorda com os
-> seguintes termos:
->
-> A tecnologia/funcionalidade descrita nesta demonstração/neste
-> laboratório é fornecida pela Microsoft Corporation para obter seus
-> comentários e oferecer uma experiência de aprendizado. Você pode usar
-> a demonstração/o laboratório somente para avaliar tais funcionalidades
-> e recursos de tecnologia e fornecer comentários à Microsoft. Você não
-> pode usá-los para nenhuma outra finalidade. Você não pode modificar,
-> copiar, distribuir, transmitir, exibir, executar, reproduzir,
-> publicar, licenciar, criar obras derivadas, transferir nem vender esta
-> demonstração/este laboratório ou qualquer parte deles.
->
-> A CÓPIA OU A REPRODUÇÃO DA DEMONSTRAÇÃO/DO LABORATÓRIO (OU DE QUALQUER
-> PARTE DELES) EM QUALQUER OUTRO SERVIDOR OU LOCAL PARA REPRODUÇÃO OU
-> REDISTRIBUIÇÃO ADICIONAL É EXPRESSAMENTE PROIBIDA.
->
-> ESTA DEMONSTRAÇÃO/ESTE LABORATÓRIO FORNECE DETERMINADOS RECURSOS
-> E FUNCIONALIDADES DE PRODUTO/TECNOLOGIA DE SOFTWARE, INCLUINDO NOVOS
-> RECURSOS E CONCEITOS POTENCIAIS, EM UM AMBIENTE SIMULADO SEM
-> CONFIGURAÇÃO NEM INSTALAÇÃO COMPLEXA PARA A FINALIDADE DESCRITA ACIMA.
-> A TECNOLOGIA/OS CONCEITOS REPRESENTADOS NESTA DEMONSTRAÇÃO/NESTE
-> LABORATÓRIO PODEM NÃO REPRESENTAR A FUNCIONALIDADE COMPLETA DOS
-> RECURSOS E PODEM NÃO FUNCIONAR DA MESMA MANEIRA QUE UMA VERSÃO FINAL.
-> ALÉM DISSO, PODEMOS NÃO LANÇAR UMA VERSÃO FINAL DE TAIS RECURSOS OU
-> CONCEITOS. SUA EXPERIÊNCIA COM O USO DE TAIS RECURSOS E
-> FUNCIONALIDADES EM UM AMBIENTE FÍSICO TAMBÉM PODE SER DIFERENTE.
->
-> **COMENTÁRIOS.** Caso você forneça comentários sobre os recursos de
-> tecnologia, as funcionalidades e/ou os conceitos descritos nesta
-> demonstração/neste laboratório à Microsoft, você concederá
-> à Microsoft, sem encargos, o direito de usar, compartilhar e
-> comercializar seus comentários de qualquer forma e para qualquer
-> finalidade. Você também concede a terceiros, sem encargos, quaisquer
-> direitos de patente necessários para que seus produtos, suas
-> tecnologias e seus serviços usem ou interajam com partes específicas
-> de um software ou um serviço da Microsoft que inclua os comentários.
-> Você não fornecerá comentários que estejam sujeitos a uma licença que
-> exija que a Microsoft licencie seu software ou sua documentação para
-> terceiros em virtude da inclusão de seus comentários neles.
-> Esses direitos continuarão em vigor após o término do contrato.
->
-> POR MEIO DESTE, A MICROSOFT CORPORATION SE ISENTA DE TODAS AS
-> GARANTIAS E CONDIÇÕES REFERENTES À DEMONSTRAÇÃO/AO LABORATÓRIO,
-> INCLUINDO TODAS AS GARANTIAS E CONDIÇÕES DE COMERCIALIZAÇÃO, SEJAM
-> ELAS EXPRESSAS, IMPLÍCITAS OU ESTATUTÁRIAS,\
-> E DE ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA, TÍTULO E NÃO VIOLAÇÃO.
-> A MICROSOFT NÃO DECLARA NEM GARANTE A PRECISÃO DOS RESULTADOS
-> DERIVADOS DO USO DA DEMONSTRAÇÃO/DO LABORATÓRIO NEM A ADEQUAÇÃO DAS
-> INFORMAÇÕES CONTIDAS NA DEMONSTRAÇÃO/NO LABORATÓRIO A QUALQUER
-> FINALIDADE.
->
-> **AVISO DE ISENÇÃO DE RESPONSABILIDADE**
->
-> Esta demonstração/este laboratório contém apenas uma parte dos novos
-> recursos e aprimoramentos do Microsoft Power BI. Alguns dos recursos
-> podem ser alterados em versões futuras do produto. Nesta
-> demonstração/neste laboratório, você aprenderá sobre alguns dos novos
-> recursos, mas não todos.
+© 2025 Microsoft Corporation. Todos os direitos reservados.
+
+Ao usar esta demonstração/este laboratório, você concorda com os seguintes termos:
+
+A tecnologia/funcionalidade descrita nesta demonstração/neste laboratório é fornecida pela Microsoft Corporation para obter seus comentários e oferecer uma experiência de aprendizado. Você pode usar a demonstração/o laboratório somente para avaliar tais funcionalidades e recursos de tecnologia e fornecer comentários à Microsoft. Você não pode usá-los para nenhuma outra finalidade. Você não pode modificar, copiar, distribuir, transmitir, exibir, executar, reproduzir, publicar, licenciar, criar obras derivadas, transferir nem vender esta demonstração/este laboratório ou qualquer parte deles.
+
+A CÓPIA OU A REPRODUÇÃO DA DEMONSTRAÇÃO/DO LABORATÓRIO (OU DE QUALQUER PARTE DELES) EM QUALQUER OUTRO SERVIDOR OU LOCAL PARA REPRODUÇÃO OU REDISTRIBUIÇÃO ADICIONAL É EXPRESSAMENTE PROIBIDA.
+
+ESTA DEMONSTRAÇÃO/ESTE LABORATÓRIO FORNECE DETERMINADOS RECURSOS E FUNCIONALIDADES DE PRODUTO/TECNOLOGIA DE SOFTWARE, INCLUINDO NOVOS RECURSOS E CONCEITOS POTENCIAIS, EM UM AMBIENTE SIMULADO SEM CONFIGURAÇÃO NEM INSTALAÇÃO COMPLEXA PARA A FINALIDADE DESCRITA ACIMA. A TECNOLOGIA/OS CONCEITOS REPRESENTADOS NESTA DEMONSTRAÇÃO/NESTE LABORATÓRIO PODEM NÃO REPRESENTAR A FUNCIONALIDADE COMPLETA DOS RECURSOS E PODEM NÃO FUNCIONAR DA MESMA MANEIRA QUE UMA VERSÃO FINAL. ALÉM DISSO, PODEMOS NÃO LANÇAR UMA VERSÃO FINAL DE TAIS RECURSOS OU CONCEITOS. SUA EXPERIÊNCIA COM O USO DE TAIS RECURSOS E FUNCIONALIDADES EM UM AMBIENTE FÍSICO TAMBÉM PODE SER DIFERENTE.
+
+COMENTÁRIOS. Caso você forneça comentários sobre os recursos de tecnologia, as funcionalidades e/ou os conceitos descritos nesta demonstração/neste laboratório à Microsoft, você concederá à Microsoft, sem encargos, o direito de usar, compartilhar e comercializar seus comentários de qualquer forma e para qualquer finalidade. Você também concede a terceiros, sem encargos, quaisquer direitos de patente necessários para que seus produtos, suas tecnologias e seus serviços usem ou interajam com partes específicas de um software ou um serviço da Microsoft que inclua os comentários. Você não fornecerá comentários que estejam sujeitos a uma licença que exija que a Microsoft licencie seu software ou sua documentação para terceiros em virtude da inclusão de seus comentários neles. Esses direitos continuarão em vigor após o término do contrato.
+
+POR MEIO DESTE, A MICROSOFT CORPORATION SE ISENTA DE TODAS AS GARANTIAS E CONDIÇÕES REFERENTES À DEMONSTRAÇÃO/AO LABORATÓRIO, INCLUINDO TODAS AS GARANTIAS E CONDIÇÕES DE COMERCIALIZAÇÃO, SEJAM ELAS EXPRESSAS, IMPLÍCITAS OU ESTATUTÁRIAS, E DE ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA, TÍTULO E NÃO VIOLAÇÃO. A MICROSOFT NÃO DECLARA NEM GARANTE A PRECISÃO DOS RESULTADOS DERIVADOS DO USO DA DEMONSTRAÇÃO/DO LABORATÓRIO NEM A ADEQUAÇÃO DAS INFORMAÇÕES CONTIDAS NA DEMONSTRAÇÃO/NO LABORATÓRIO A QUALQUER FINALIDADE.
+
+AVISO DE ISENÇÃO DE RESPONSABILIDADE
+
+Esta demonstração/este laboratório contém apenas uma parte dos novos recursos e aprimoramentos do Microsoft Power BI. Alguns dos recursos podem ser alterados em versões futuras do produto. Nesta demonstração/neste laboratório, você aprenderá sobre alguns dos novos recursos, mas não todos.

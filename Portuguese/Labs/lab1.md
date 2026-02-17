@@ -105,24 +105,24 @@ atual no Power BI Desktop para entender as transformações e o modelo.
     o **Nome de usuário**\
     e cole-o no campo **Email** do diálogo e selecione **Continuar**.
 
-  - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-    ![](images1/media/image7.png)
+      ![](images1/media/image7.png)
 
 3.  Na guia Entrar no Microsoft Azure, você verá a tela de logon. Nessa
     tela, insira o seguinte Email/Nome de usuário e clique em
     **Avançar**.
 
-  - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
+    - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-    ![](images1/media/image8.png)
+      ![](images1/media/image8.png)
 
 4.  Agora, insira a seguinte **Senha de Acesso Temporária** e clique em
     **Entrar**.
 
-- Senha de Acesso Temporária: <inject key="AzureAdUserPassword"></inject> 
+    - Senha de Acesso Temporária: <inject key="AzureAdUserPassword"></inject> 
 
-  ![](images1/media/image9.png)
+      ![](images1/media/image9.png)
 
 5.  A caixa de diálogo **Continuar conectado a todos os aplicativos** é
     aberta. Selecione **OK**.
@@ -141,7 +141,7 @@ Sales over time, por Territory, Product Group e Reseller Company.
 
 ![](images1/media/image11.jpeg)
 
-**Observação:** Neste treinamento, estamos nos concentrando na
+>**Observação:** Neste treinamento, estamos nos concentrando na
 aquisição, transformação e modelagem de dados usando as ferramentas
 disponíveis no Fabric. Não nos concentraremos no desenvolvimento ou na
 navegação de relatórios. Vamos reservar alguns minutos para entender
@@ -259,7 +259,7 @@ o relatório e passar para as próximas etapas.
 
     - Email/Nome de usuário: <inject key="AzureAdUserEmail"></inject>
 
-- Senha: encontrada na guia Ambiente
+    - Senha: <inject key="AzureAdUserPassword"></inject>
 
 9.  Clique na Consulta **ADLS Base Folder** na janela Consultas. Para
     selecionar essa consulta, forneça as credenciais. Clique em **Editar
@@ -269,9 +269,9 @@ o relatório e passar para as próximas etapas.
 
 10. Para a fonte de dados ADLS, escolha a opção **SAS (Assinatura de acesso compartilhado)** e insira o **token SAS** fornecido abaixo. Em seguida, selecione **Conectar**.
 
-  - **Token SAS:** <inject key="Sas token"></inject>
+    - **Token SAS:** <inject key="Sas token"></inject>
 
-    ![](images1/media/image23.png)
+      ![](images1/media/image23.png)
 
 11. Observe que a pasta **ADLSData** tem múltiplas dimensões: Geo,
     Product, Reseller e Date.\
@@ -298,22 +298,22 @@ o relatório e passar para as próximas etapas.
     fornecidos abaixo. Use essas credenciais para conectar todas as
     tabelas do Snowflake ao Snowflake e selecione **Conectar**.
 
-- **Nome de usuário do Snowflake:** TE_SNOWFLAKE1
+    - **Nome de usuário do Snowflake:** TE_SNOWFLAKE1
 
-- **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
 
-*Observação: se você tiver problemas para se conectar ao Snowflake com as credenciais acima, use as credenciais de backup fornecidas abaixo.*
+      >*Observação: se você tiver problemas para se conectar ao Snowflake com as credenciais acima, use as credenciais de backup fornecidas abaixo.*
 
-- **Nome de usuário do Snowflake:** SNOWFLAKE_BACKUP
+    - **Nome de usuário do Snowflake:** SNOWFLAKE_BACKUP
 
-- **Senha do Snowflake:** 8UpfRpExVDXv2AC1
+    - **Senha do Snowflake:** 8UpfRpExVDXv2AC1
 
 14. A pasta SnowflakeData tem a dimensão Supplier e o fato PO
     (Order/Spend).
 
-- A **dimensão Supplier** é criada mesclando a consulta Suppliers com a consulta SupplierCategories.
+    - A **dimensão Supplier** é criada mesclando a consulta Suppliers com a consulta SupplierCategories.
 
-- O **fato PO** é criado mesclando PO com a consulta PO Line Items.
+    - O **fato PO** é criado mesclando PO com a consulta PO Line Items.
 
 15. Para a fonte de dados SharePoint, selecione a consulta **People** na janela Consultas. A seleção dessa consulta solicitará que você forneça as credenciais. Clique em **Editar Credenciais**.
 
@@ -323,17 +323,17 @@ o relatório e passar para as próximas etapas.
     Insira o Nome de usuário e a Senha fornecidos abaixo e selecione
     **Conectar**.
 
-- **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
+    - **Email/Nome de usuário:** <inject key="AzureAdUserEmail"></inject>
 
-- **Senha:** <inject key="AzureAdUserPassword"></inject>
+    - **Senha:** <inject key="AzureAdUserPassword"></inject>
 
-  ![](images1/media/image26.png)
+      ![](images1/media/image26.png)
 
 17. Observe que a pasta **SharepointData** tem a dimensão People.
 
     ![](images1/media/image27.png)
 
-  Agora sabemos com o que estamos lidando. Nos laboratórios a seguir,
+    Agora sabemos com o que estamos lidando. Nos laboratórios a seguir,
   criaremos um Power Query semelhante usando o Fluxo de Dados Gen2 e uma
   modelagem usando um Lakehouse.
 
@@ -401,63 +401,20 @@ Leia os blogs de comunicados de experiências do Fabric em mais detalhes:
 - [Blog de integração do Dataverse e Microsoft
   Fabric](https://aka.ms/Dataverse-Fabric-Blog)
 
-> © 2023 Microsoft Corporation. Todos os direitos reservados.
->
-> Ao usar esta demonstração/este laboratório, você concorda com os
-> seguintes termos:
->
-> A tecnologia/funcionalidade descrita nesta demonstração/neste
-> laboratório é fornecida pela Microsoft Corporation para obter seus
-> comentários e oferecer uma experiência de aprendizado. Você pode usar
-> a demonstração/o laboratório somente para avaliar tais funcionalidades
-> e recursos de tecnologia e fornecer comentários à Microsoft. Você não
-> pode usá-los para nenhuma outra finalidade. Você não pode modificar,
-> copiar, distribuir, transmitir, exibir, executar, reproduzir,
-> publicar, licenciar, criar obras derivadas, transferir nem vender esta
-> demonstração/este laboratório ou qualquer parte deles.
->
-> A CÓPIA OU A REPRODUÇÃO DA DEMONSTRAÇÃO/DO LABORATÓRIO (OU DE QUALQUER
-> PARTE DELES) EM QUALQUER OUTRO SERVIDOR OU LOCAL PARA REPRODUÇÃO OU
-> REDISTRIBUIÇÃO ADICIONAL É EXPRESSAMENTE PROIBIDA.
->
-> ESTA DEMONSTRAÇÃO/ESTE LABORATÓRIO FORNECE DETERMINADOS RECURSOS
-> E FUNCIONALIDADES DE PRODUTO/TECNOLOGIA DE SOFTWARE, INCLUINDO NOVOS
-> RECURSOS E CONCEITOS POTENCIAIS, EM UM AMBIENTE SIMULADO SEM
-> CONFIGURAÇÃO NEM INSTALAÇÃO COMPLEXA PARA A FINALIDADE DESCRITA ACIMA.
-> A TECNOLOGIA/OS CONCEITOS REPRESENTADOS NESTA DEMONSTRAÇÃO/NESTE
-> LABORATÓRIO PODEM NÃO REPRESENTAR A FUNCIONALIDADE COMPLETA DOS
-> RECURSOS E PODEM NÃO FUNCIONAR DA MESMA MANEIRA QUE UMA VERSÃO FINAL.
-> ALÉM DISSO, PODEMOS NÃO LANÇAR UMA VERSÃO FINAL DE TAIS RECURSOS OU
-> CONCEITOS. SUA EXPERIÊNCIA COM O USO DE TAIS RECURSOS E
-> FUNCIONALIDADES EM UM AMBIENTE FÍSICO TAMBÉM PODE SER DIFERENTE.
->
-> **COMENTÁRIOS**. Caso você forneça comentários sobre os recursos de
-> tecnologia, as funcionalidades e/ou os conceitos descritos nesta
-> demonstração/neste laboratório à Microsoft, você concederá
-> à Microsoft, sem encargos, o direito de usar, compartilhar e
-> comercializar seus comentários de qualquer forma e para qualquer
-> finalidade. Você também concede a terceiros, sem encargos, quaisquer
-> direitos de patente necessários para que seus produtos, suas
-> tecnologias e seus serviços usem ou interajam com partes específicas
-> de um software ou um serviço da Microsoft que inclua os comentários.
-> Você não fornecerá comentários que estejam sujeitos a uma licença que
-> exija que a Microsoft licencie seu software ou sua documentação para
-> terceiros em virtude da inclusão de seus comentários neles.
-> Esses direitos continuarão em vigor após o término do contrato.
->
-> POR MEIO DESTE, A MICROSOFT CORPORATION SE ISENTA DE TODAS AS
-> GARANTIAS E CONDIÇÕES REFERENTES À DEMONSTRAÇÃO/AO LABORATÓRIO,
-> INCLUINDO TODAS AS GARANTIAS E CONDIÇÕES DE COMERCIALIZAÇÃO, SEJAM
-> ELAS EXPRESSAS, IMPLÍCITAS OU ESTATUTÁRIAS,\
-> E DE ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA, TÍTULO E NÃO VIOLAÇÃO. A
-> MICROSOFT NÃO DECLARA NEM GARANTE A PRECISÃO DOS RESULTADOS DERIVADOS
-> DO USO DA DEMONSTRAÇÃO/DO LABORATÓRIO NEM A ADEQUAÇÃO DAS INFORMAÇÕES
-> CONTIDAS NA DEMONSTRAÇÃO/NO LABORATÓRIO A QUALQUER FINALIDADE.
->
-> **AVISO DE ISENÇÃO DE RESPONSABILIDADE**
->
-> Esta demonstração/este laboratório contém apenas uma parte dos novos
-> recursos e aprimoramentos do Microsoft Power BI. Alguns dos recursos
-> podem ser alterados em versões futuras do produto. Nesta
-> demonstração/neste laboratório, você aprenderá sobre alguns dos novos
-> recursos, mas não todos.
+© 2025 Microsoft Corporation. Todos os direitos reservados.
+
+Ao usar esta demonstração/este laboratório, você concorda com os seguintes termos:
+
+A tecnologia/funcionalidade descrita nesta demonstração/neste laboratório é fornecida pela Microsoft Corporation para obter seus comentários e oferecer uma experiência de aprendizado. Você pode usar a demonstração/o laboratório somente para avaliar tais funcionalidades e recursos de tecnologia e fornecer comentários à Microsoft. Você não pode usá-los para nenhuma outra finalidade. Você não pode modificar, copiar, distribuir, transmitir, exibir, executar, reproduzir, publicar, licenciar, criar obras derivadas, transferir nem vender esta demonstração/este laboratório ou qualquer parte deles.
+
+A CÓPIA OU A REPRODUÇÃO DA DEMONSTRAÇÃO/DO LABORATÓRIO (OU DE QUALQUER PARTE DELES) EM QUALQUER OUTRO SERVIDOR OU LOCAL PARA REPRODUÇÃO OU REDISTRIBUIÇÃO ADICIONAL É EXPRESSAMENTE PROIBIDA.
+
+ESTA DEMONSTRAÇÃO/ESTE LABORATÓRIO FORNECE DETERMINADOS RECURSOS E FUNCIONALIDADES DE PRODUTO/TECNOLOGIA DE SOFTWARE, INCLUINDO NOVOS RECURSOS E CONCEITOS POTENCIAIS, EM UM AMBIENTE SIMULADO SEM CONFIGURAÇÃO NEM INSTALAÇÃO COMPLEXA PARA A FINALIDADE DESCRITA ACIMA. A TECNOLOGIA/OS CONCEITOS REPRESENTADOS NESTA DEMONSTRAÇÃO/NESTE LABORATÓRIO PODEM NÃO REPRESENTAR A FUNCIONALIDADE COMPLETA DOS RECURSOS E PODEM NÃO FUNCIONAR DA MESMA MANEIRA QUE UMA VERSÃO FINAL. ALÉM DISSO, PODEMOS NÃO LANÇAR UMA VERSÃO FINAL DE TAIS RECURSOS OU CONCEITOS. SUA EXPERIÊNCIA COM O USO DE TAIS RECURSOS E FUNCIONALIDADES EM UM AMBIENTE FÍSICO TAMBÉM PODE SER DIFERENTE.
+
+COMENTÁRIOS. Caso você forneça comentários sobre os recursos de tecnologia, as funcionalidades e/ou os conceitos descritos nesta demonstração/neste laboratório à Microsoft, você concederá à Microsoft, sem encargos, o direito de usar, compartilhar e comercializar seus comentários de qualquer forma e para qualquer finalidade. Você também concede a terceiros, sem encargos, quaisquer direitos de patente necessários para que seus produtos, suas tecnologias e seus serviços usem ou interajam com partes específicas de um software ou um serviço da Microsoft que inclua os comentários. Você não fornecerá comentários que estejam sujeitos a uma licença que exija que a Microsoft licencie seu software ou sua documentação para terceiros em virtude da inclusão de seus comentários neles. Esses direitos continuarão em vigor após o término do contrato.
+
+POR MEIO DESTE, A MICROSOFT CORPORATION SE ISENTA DE TODAS AS GARANTIAS E CONDIÇÕES REFERENTES À DEMONSTRAÇÃO/AO LABORATÓRIO, INCLUINDO TODAS AS GARANTIAS E CONDIÇÕES DE COMERCIALIZAÇÃO, SEJAM ELAS EXPRESSAS, IMPLÍCITAS OU ESTATUTÁRIAS, E DE ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA, TÍTULO E NÃO VIOLAÇÃO. A MICROSOFT NÃO DECLARA NEM GARANTE A PRECISÃO DOS RESULTADOS DERIVADOS DO USO DA DEMONSTRAÇÃO/DO LABORATÓRIO NEM A ADEQUAÇÃO DAS INFORMAÇÕES CONTIDAS NA DEMONSTRAÇÃO/NO LABORATÓRIO A QUALQUER FINALIDADE.
+
+AVISO DE ISENÇÃO DE RESPONSABILIDADE
+
+Esta demonstração/este laboratório contém apenas uma parte dos novos recursos e aprimoramentos do Microsoft Power BI. Alguns dos recursos podem ser alterados em versões futuras do produto. Nesta demonstração/neste laboratório, você aprenderá sobre alguns dos novos recursos, mas não todos.
